@@ -12,3 +12,7 @@ jobs:
         uses: actions/checkout@v4
       - name: Say hello
         run: echo "🎉 Hello, GitHub Actions!"
+      - name: Current directory
+        run: pwd
+      - name: Lists
+        run: ls -a    
