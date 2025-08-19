@@ -18,3 +18,5 @@ jobs:
         run: pwd
       - name: Lists
         run: ls -a    
+      - name: Long List
+        run: ls -al
