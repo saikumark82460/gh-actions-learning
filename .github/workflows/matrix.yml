@@ -20,7 +20,7 @@ jobs:
             - name: Install dependencies
               run: npm i
             - name: Run tests
-              run: npm tests || echo "No tests yet"     
+              run: npm test || echo "No tests yet"     
     lint:
         runs-on: ubuntu-latest
         needs: build
